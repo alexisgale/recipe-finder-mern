@@ -15,7 +15,6 @@ function App() {
     <Provider store={store}>
       <AuthProvider>
         {" "}
-        {/* Wrap your app with AuthProvider */}
         <Router>
           <div className="App">
             <Navbar />
